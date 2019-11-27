@@ -16,5 +16,4 @@ setup(
         [console_scripts]
         breeze=breeze:cli
     '''
-
 )
