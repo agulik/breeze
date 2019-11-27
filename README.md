@@ -13,7 +13,8 @@ Breeze uses the configuration file created by the AWS cli. e.g.
 
 ## Running
 
-`pipenv run python breeze.py <command> <--project=PROJECT>`
+`pipenv run python breeze.py <command> <subcommand> <--project=PROJECT>`
 
-*command* is list, start or stop <br>
+*command* is instances, volumes or snapshots <br>
+*subcommand* - depends on command <br>
 *project* is optional
